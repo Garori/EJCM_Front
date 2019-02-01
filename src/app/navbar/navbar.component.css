@@ -1,0 +1,92 @@
+/* font-family: 'Nanum Brush Script', cursive; */
+
+
+
+nav{
+  height: 15vh;
+  z-index: 1;
+
+}
+
+nav .sidenav-trigger i{
+
+  padding-top: 4vh;
+  padding-left: 4vw;
+  border-top: 0vh;
+  margin-top: 3vh;
+  font-size: 6vw;
+
+}
+
+nav ul a{
+  font-family: 'embers', cursive;
+  font-size: 4em;
+  padding: 0vh 4vw;
+  margin-left: 0vw;
+}
+nav li{
+
+  height: 4vh;
+
+}
+
+nav .row{
+  width: 40vw;
+}
+
+
+.logo_size{
+  top: 0vh;
+  left: 0vw;
+  height: 12vh;
+  margin: 2vh 2vw;
+  border: 0px;
+  padding: 0px;
+}
+
+
+.nav_ul{
+
+  margin-top: 3.5vh;
+  margin-left: 0vh;
+  top: 0vh;
+
+}
+
+.side-nav{
+
+  background-image: url("../../assets/img/Sessho.jpeg");
+  background-size: cover;
+
+}
+
+.side_header{
+
+  height: 15vh;
+
+}
+
+
+
+#geisha_text{
+
+  margin-top: 0vh;
+  height: 70vh;
+  padding-top: 5vh;
+  font-family: 'brushido', cursive;
+  text-align: center;
+
+}
+
+
+#geisha_text h1{
+
+  font-size: 32vw;
+  font-weight: bold;
+
+}
+
+nav .sidenav-trigger i{
+
+  margin-top: 0;
+}

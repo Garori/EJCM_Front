@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+/* font-family: 'Abhaya Libre', serif; */
+
+@font-face {
+      src: url("assets/fonts/JAPAB.ttf");
+      font-family: 'JAPAB';
+}
+@font-face {
+      src: url("assets/fonts/Brushido.ttf");
+      font-family: 'brushido';
+}
+@font-face {
+      src: url("assets/fonts/Fujimaru.ttf");
+      font-family: 'fujimaru';
+}
+@font-face {
+      src: url("assets/fonts/embers.ttf");
+      font-family: 'embers';
+}
+
+body{
+
+  font-family: 'Abhaya Libre', serif;
+
+}
+
+h2{
+
+  font-family: 'embers', cursive;
+  color: #ffffff;
+
+}
+
+
+.clip{
+  /*
+  Ensure background is added first
+  */
+  background: url("assets/img/patterns/arches_red.png");
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-repeat: repeat;
+  z-index: 5;
+}
+
+.mid_row{
+
+  height: 100%;
+  margin-top:15vh;
+  margin-bottom: 0vh;
+  font-size: 4em;
+
+}
+
+.mid_row .container{
+  margin: 3vh 3vw 3vh 3vw;
+  width: auto;
+}
+
+
+.home_bg::before{
+
+  position:absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  content: "";
+  background-image: url("assets/img/Sessho.jpeg");
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.default_bg{
+
+  background: url("assets/img/patterns/arches_red.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+}
