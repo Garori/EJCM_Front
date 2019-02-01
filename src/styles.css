@@ -21,6 +21,9 @@
 body{
 
   font-family: 'Abhaya Libre', serif;
+  /* display: flex;
+  min-height: 100vh;
+  flex-direction: column; */
 
 }
 
@@ -46,29 +49,18 @@ h2{
 
 .mid_row{
 
-  height: 100%;
   margin-top:15vh;
   margin-bottom: 0vh;
   font-size: 4em;
 
 }
 
-.mid_row .container{
-  margin: 3vh 3vw 3vh 3vw;
-  width: auto;
-}
 
 
-.home_bg::before{
+.home_bg{
 
-  position:absolute;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  left: 0;
-  content: "";
+  z-index: 0;
   background-image: url("assets/img/Sessho.jpeg");
-  height: 100%;
   background-size: cover;
   background-attachment: fixed;
 
@@ -80,4 +72,17 @@ h2{
   background-repeat: repeat;
   background-attachment: fixed;
 
+}
+
+.gallery img {
+
+    box-shadow: 0px 0px 25px black;
+    margin: 2vh 3vw;
+
+
+}
+
+.gallery img:hover {
+    transition: all 1s ease;
+    transform: scale(1.2,1.2);
 }

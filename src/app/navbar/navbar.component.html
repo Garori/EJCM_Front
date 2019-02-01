@@ -1,15 +1,15 @@
 
 <nav class="default_bg">
       <div class="nav-wrapper">
-        <a href="home.html" class="brand-logo center"><img src="../../assets/img/geisha.svg" class="logo_size" alt="Logo"></a>
+        <a href="/home" class="brand-logo center logo_size"><img src="../../assets/img/geisha.svg" class="logo_size" alt="Logo"></a>
         <a materialize="sideNav" [materializeParams]="[{edge:'left'}]"  href="#" data-activates="mobile-demo" class="hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="left hide-on-med-and-down nav_ul">
-          <li><a href="#" class="nav_li"  id="art">Art Gallery</a></li>
-          <li><a href="#" class="nav_li">About us</a></li>
+          <li routerLinkActive="active"><a href="/art_gallery" class="nav_li"  id="art">Art Gallery</a></li>
+          <li routerLinkActive="active"><a href="/about" class="nav_li">About us</a></li>
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down nav_ul">
-          <li><a href="#" class=" nav_li">Partners</a></li>
-          <li><a href="#" class="nav_li">Contact us!</a></li>
+          <li routerLinkActive="active"><a href="/partners" class=" nav_li">Partners</a></li>
+          <li routerLinkActive="active"><a href="/contact" class="nav_li">Contact us!</a></li>
         </ul>
       </div>
     </nav>
@@ -18,8 +18,8 @@
       <div class="default_bg side_header">
         <a href="home.html" class="brand-logo center"><img src="../../assets/img/geisha.svg" class="logo_size" alt="Logo"></a>
       </div>
-      <li><a href="sass.html">Art Gallery</a></li>
-      <li><a href="badges.html">About Us</a></li>
-      <li><a href="collapsible.html">Partners</a></li>
-      <li><a href="mobile.html">Contact Us!</a></li>
+      <li routerLinkActive="active"><a href="/art_gallery">Art Gallery</a></li>
+      <li routerLinkActive="active"><a href="/about">About Us</a></li>
+      <li routerLinkActive="active"><a href="/partners">Partners</a></li>
+      <li routerLinkActive="active"><a href="/contact">Contact Us!</a></li>
     </ul>

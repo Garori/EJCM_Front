@@ -1,14 +1,18 @@
 footer{
-
 font-family: 'Abhaya Libre', serif;
-background-color: rgba();
-
+background-color: rgba(0,0,0,0.5);
+position: static;
+bottom: 0;
+right:0;
 }
 
 
 .Author{
-
   text-align: right;
+}
 
+
+.footer-copyright{
+  background-color: rgba(0, 0, 0, 0.3);
 
 }

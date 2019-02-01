@@ -30,9 +30,9 @@
 .gallery img{
 
 
-  max-width: 20vw;
-  min-height: 10vh;
-  padding: 2vh 1vw;
+  max-width: 10vw;
+  min-height: 3vh;
+  padding: 0;
 
 }
 
