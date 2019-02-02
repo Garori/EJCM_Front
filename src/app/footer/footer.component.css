@@ -2,7 +2,7 @@ footer{
 font-family: 'Abhaya Libre', serif;
 background-color: rgba(0,0,0,0.5);
 position: static;
-bottom: 0;
+bottom: 100%;
 right:0;
 }
 

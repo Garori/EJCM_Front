@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-/* font-family: 'Abhaya Libre', serif; */
+/* font-family: 'Abhaya Libre', serif;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'MuseumBibleRegular', serif; */
 
 @font-face {
       src: url("assets/fonts/JAPAB.ttf");
@@ -18,71 +21,160 @@
       font-family: 'embers';
 }
 
+
 body{
-
-  font-family: 'Abhaya Libre', serif;
-  /* display: flex;
-  min-height: 100vh;
-  flex-direction: column; */
-
+  /* font-family: 'Abhaya Libre', serif; */
+  font-family: 'MuseumBibleRegular', serif;
 }
 
+
 h2{
-
-  font-family: 'embers', cursive;
+  /* font-family: 'embers', cursive; */
+  /* font-family: 'Nanum Brush Script', cursive; */
+  /* font-family: 'Caveat Brush', cursive; */
+  font-family: 'MuseumBibleRegular', serif;
   color: #ffffff;
+}
 
+
+p{
+  font-size: 1.4em;
 }
 
 
 .clip{
-  /*
-  Ensure background is added first
-  */
   background: url("assets/img/patterns/arches_red.png");
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-repeat: repeat;
-  z-index: 5;
 }
+
 
 .mid_row{
-
   margin-top:15vh;
-  margin-bottom: 0vh;
-  font-size: 4em;
-
+  margin-bottom:15vh;
+  box-shadow: 0px 0px 10px black;
+  color: #fff;
 }
 
+
+.mid_row::after{
+  text-shadow: 0px 0px 10px black;
+}
 
 
 .home_bg{
-
   z-index: 0;
   background-image: url("assets/img/Sessho.jpeg");
   background-size: cover;
   background-attachment: fixed;
-
 }
 
-.default_bg{
 
+.default_bg{
   background: url("assets/img/patterns/arches_red.png");
   background-repeat: repeat;
   background-attachment: fixed;
-
 }
+
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.gallery img{
+  max-width: 10vw;
+  min-height: 3vh;
+  padding: 0;
+}
+
 
 .gallery img {
-
-    box-shadow: 0px 0px 25px black;
     margin: 2vh 3vw;
-
-
+    box-shadow: 0px 0px 10px black;
 }
+
 
 .gallery img:hover {
     transition: all 1s ease;
     transform: scale(1.2,1.2);
+}
+
+
+.espaco{
+  height: 10vh
+}
+
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* //CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* //CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* //CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* //CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* //CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* //CSS */
+
 }

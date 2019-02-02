@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'MuseumBibleRegular';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/da200f13073f3cedaf1f8cb64e7b879a/MuseumBibleRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'MuseumFoundryBook';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/e40d2703c3f81b870d0d99bbbe9891c8/MuseumFoundryBook.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'MuseumFourteen';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/cdfe8bf49e6f3a691aae312a92eaffc2/MuseumFourteen.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'MuseumSixty';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/042e8fd2a04b7ef59e76fcc37333023c/MuseumSixty.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Museum Bible';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/da200f13073f3cedaf1f8cb64e7b879a/MuseumBibleRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Museum Foundry';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/e40d2703c3f81b870d0d99bbbe9891c8/MuseumFoundryBook.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Museum';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/cdfe8bf49e6f3a691aae312a92eaffc2/MuseumFourteen.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Museum';
+        src: url('/assets/fonts/museum/5450de1669abbddd8492b90ba30368e4/042e8fd2a04b7ef59e76fcc37333023c/MuseumSixty.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+

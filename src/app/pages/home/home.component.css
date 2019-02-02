@@ -1,49 +1,35 @@
 
-#geisha_text{
 
+
+
+#geisha_text, #geisha_over{
   margin-top: 0vh;
   height: 70vh;
   padding-top: 5vh;
   font-family: 'brushido', cursive;
   text-align: center;
+}
 
+
+#geisha_over{
+  position: relative;
+  top: -70vh;
+  margin-top: 0vh;
+  height: 0vh;
+  padding-top: 5vh;
+  font-family: 'brushido', cursive;
+  text-align: center;
 }
 
 
 #geisha_text h1{
-
   font-size: 32vw;
   font-weight: bold;
-
+  text-shadow: 0px 0px 10px black;
 }
 
 
-.gallery{
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-
-}
-
-.gallery img{
-
-
-  max-width: 10vw;
-  min-height: 3vh;
-  padding: 0;
-
-}
-
-.mid_row h2{
-
-  font-size: 2em;
-
-}
-
-.espaco{
-
-  height: 10vh
-
+#geisha_over h1{
+  font-size: 32vw;
+  font-weight: bold;
 }
