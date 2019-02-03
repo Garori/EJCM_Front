@@ -27,7 +27,6 @@ p{
 }
 
 
-
 .mid_row{
   margin-top:15vh;
   margin-bottom:15vh;
@@ -54,31 +53,4 @@ p{
   background: url("assets/img/patterns/saigaiha_new2.png");
   background-repeat: repeat;
   background-attachment: fixed;
-}
-
-
-.gallery{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-
-.gallery img{
-  max-width: 10vw;
-  min-height: 3vh;
-  padding: 0;
-}
-
-
-.gallery img {
-    margin: 2vh 3vw;
-    box-shadow: 0px 0px 10px black;
-}
-
-
-.gallery img:hover {
-    transition: all 1s ease;
-    transform: scale(1.2,1.2);
 }

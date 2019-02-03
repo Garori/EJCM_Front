@@ -9,6 +9,7 @@
 
     <div class="input-field input_menor">
       <input name="email" type="text" id="email" ngModel required #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}\.{0,1}[a-z]{2}$">
+      <!-- a pattern na linha de cima é o código em regex pra validação de email pra seguir o padrão [nome]@[provedor].[co/com(não exatamente)].[sigla do pais] -->
       <label for="email">E-mail:</label>
     </div>
 
