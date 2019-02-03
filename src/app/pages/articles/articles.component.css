@@ -1,9 +1,10 @@
+h2{
+  text-align: center;
+}
+
+
 .mid_row{
   margin-top: 2vh;
   margin-bottom: 2vh;
   padding: 1vh 1vw;
-}
-
-h2{
-  text-align: center;
 }

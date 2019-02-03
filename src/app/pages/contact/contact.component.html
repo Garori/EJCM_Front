@@ -25,7 +25,7 @@
         </div>
       </div>
 
-      <button class="waves-effect waves-light right col s2 m2 l2" type="submit">Send!</button>
+      <button class="waves-effect waves-light right col s2 m2 l2 btn" type="submit" [disabled]="name.invalid || email.invalid || message.invalid">Send!</button>
     </div>
 
   </form>
