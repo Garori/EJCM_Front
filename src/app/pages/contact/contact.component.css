@@ -22,7 +22,6 @@ input[type="text"], textarea{
 .mid_row{
   padding: 2vh 1vw;
   padding-bottom: 4vh;
-  background-color: rgba(0,0,0,0.3);
   height: 100%;
 }
 
