@@ -6,6 +6,9 @@ bottom: 100%;
 right:0;
 }
 
+footer p{
+  font-size: 1em;
+}
 
 .Author{
   text-align: right;

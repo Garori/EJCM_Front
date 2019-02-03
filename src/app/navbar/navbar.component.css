@@ -75,6 +75,11 @@ nav .row{
 }
 
 
+.padraozinho{
+  background-color: rgba(0,0,0,0.3);
+}
+
+
 nav .sidenav-trigger i{
   margin-top: 0;
 }

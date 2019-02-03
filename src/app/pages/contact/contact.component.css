@@ -1,0 +1,49 @@
+label{
+  font-size: 2em;
+  color: #fff;
+}
+
+
+button{
+  background-color: rgba(0,0,0,0.3);
+  border-style: none;
+  box-shadow: 0px 0px 10px black;
+  margin-right: 4vw;
+  color: white;
+}
+
+
+input[type="text"], textarea{
+  font-size: 1.5em;
+  color: black;
+}
+
+
+.mid_row{
+  padding: 2vh 1vw;
+  padding-bottom: 4vh;
+  background-color: rgba(0,0,0,0.3);
+  height: 100%;
+}
+
+
+.input_menor{
+  width: 50%;
+}
+
+
+.input-field input:focus + label, .input-field textarea:focus + label{
+  color: #fff;
+}
+
+
+.input-field input:focus, .input-field textarea:focus{
+  border-bottom: 1px solid #fff;
+  box-shadow: 0px 1px 0 0 #fff;
+}
+
+.row{
+  color: #000000;
+  font-size:1.5rem;
+  text-align: left;
+}

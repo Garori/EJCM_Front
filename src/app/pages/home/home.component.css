@@ -1,5 +1,13 @@
 
 
+.clip{
+  background: url("../../../assets/img/patterns/saigaiha_new2.png");
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-repeat: repeat;
+}
+
 
 
 #geisha_text, #geisha_over{

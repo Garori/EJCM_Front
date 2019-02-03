@@ -1,3 +1,30 @@
-<p>
-  contact works!
-</p>
+<div class="container mid_row">
+  <form #contact="ngForm" (ngSubmit)="onSubmit(contact)">
+
+    <div class="input-field input_menor">
+      <input name="name" type="text" id="name" ngModel required #name="ngModel">
+      <label for="name">Name:</label>
+    </div>
+
+    <div class="input-field input_menor">
+      <input name="email" type="text" id="email" ngModel required #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}\.{0,1}[a-z]{2}$">
+      <label for="email">E-mail:</label>
+    </div>
+
+    <div class="input-field">
+      <textarea name="message"  class="materialize-textarea" id="message" ngModel required #message="ngModel"></textarea>
+      <label for="message">Give us your feedback!</label>
+    </div>
+    <div class="row">
+      <div class="col s10 m10 l10" *ngIf=" name.touched && name.invalid || email.touched && email.invalid || message.touched && message.invalid">
+        Please fill all fields.
+        <div *ngIf="email.invalid && email.touched">
+          <strong><em>E-mail is invalid!</em></strong>
+        </div>
+      </div>
+
+      <button class="waves-effect waves-light right col s2 m2 l2" type="submit">Send!</button>
+    </div>
+
+  </form>
+</div>
