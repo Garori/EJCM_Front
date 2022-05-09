@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import 'materialize-css';
 import { MaterializeModule } from 'angular2-materialize';
 import { AppRoutingModule } from './app.routing.module';
 import { FormsModule } from '@angular/forms';
